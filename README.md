@@ -1,4 +1,4 @@
-# NotePad website
+# [NotePad website 🔗](https://mr-rajnix.github.io/NotePad/)
 
 This notepad website allows the user to type text into a textarea, save the text as a file with a specified name, and clear the text from the textarea. The website includes several features and functionalities, such as a dark mode toggle button, a file name input field, error messages, media queries, and code to make the input container behave like a Notepad file.
 
