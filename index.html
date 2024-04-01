@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Notepad</title>
+		<link rel="stylesheet" type="text/css" href="./assets/notepad.css" />
+	</head>
+	<body>
+    <div id="loading-screen">
+      <img src="./assets/wired-gradient-1872-small-cute-monster.gif" style="height: 100px;">
+    </div>
+		<div id="notepad-container">
+			<button id="dark-mode-toggle">
+        <lord-icon src="https://cdn.lordicon.com/vgrsynza.json" trigger="loop-on-hover" delay="1000" style="width:200px;height:100px; padding: 0;margin: 0;top:70px;"></lord-icon>
+      </button>
+			<h1>
+				<lord-icon src="https://cdn.lordicon.com/ghhwiltn.json" trigger="loop" delay="2000" style="width: 100px; height: 50px; padding: 10px 0 0 0; margin: 0;"></lord-icon>
+        Simple Notepad
+				<lord-icon src="https://cdn.lordicon.com/ghhwiltn.json" trigger="loop" delay="2000" style="width: 100px; height: 50px; padding: 10px 0 0 0; margin: 0;"></lord-icon>
+			</h1>
+			<input type="text" id="file-name" placeholder="Enter file name" />
+			<div id="button-container">
+        <button id="notepad-save">
+          <img src="./assets/save-file.gif" style="height: 40px;">
+        </button>
+        <button id="notepad-clear"><lord-icon
+          src="https://cdn.lordicon.com/drxwpfop.json" trigger="hover">
+        </lord-icon>
+        </button>
+      </div>
+      <textarea id="notepad-text" placeholder="Type what ever you want . . . ."></textarea>
+		</div>
+		<script src="./assets/notepad.js"></script>
+		<script src="https://cdn.lordicon.com/lordicon.js"></script>
+	</body>
+</html>
